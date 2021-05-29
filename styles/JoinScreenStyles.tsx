@@ -44,7 +44,7 @@ export const ProductInfoStyles = makeStyles(() =>
     },
     Setting: {
       marginRight: '10px',
-      width:"20px",
+      width: '20px',
     },
     TurboUser: {
       fontFamily: 'Roboto',

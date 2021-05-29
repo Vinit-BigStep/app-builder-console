@@ -2,6 +2,7 @@ import React from 'react';
 import {Button, Box} from '@material-ui/core';
 import type {LogoStateType, LogoType} from '../pages/console';
 import {UploadStyles} from '../pages/UploadStyles';
+import {extensions} from '../constants/constants';
 
 interface UploadProps {
   name: LogoType;
@@ -69,17 +70,6 @@ export default function Upload(props: UploadProps) {
       }
     }
   };
-
-  const extensions: string[] = [
-    'jpeg',
-    'jpg',
-    'png',
-    'webp',
-    'tiff',
-    'tif',
-    'gif',
-    'svg',
-  ];
 
   return (
     <>
